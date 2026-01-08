@@ -1,15 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Mon premier site</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash-Sure | Jeunesse & Impact</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Bienvenue sur mon site</h1>
-  <p>Mon site est maintenant en ligne avec Netlify.</p>
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Trash-Sure</h1>
+        <nav class="nav">
+            <a href="#about">À propos</a>
+            <a href="#programs">Programmes</a>
+            <a href="#impact">Impact</a>
+            <a href="#contact" class="btn">Participer</a>
+        </nav>
+    </div>
+</header>
 
-  <script src="script.js"></script>
+<!-- HERO -->
+<section class="hero">
+    <div class="container hero-content">
+        <h2>Former la jeunesse.<br>Protéger l’environnement.</h2>
+        <p>Trash-Sure accompagne les jeunes vers l’innovation, l’entrepreneuriat et l’impact durable.</p>
+        <a href="#programs" class="btn-primary">Rejoindre le mouvement</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <div class="container">
+        <h3>À propos de Trash-Sure</h3>
+        <p>
+            Trash-Sure est une initiative dédiée à l’éducation environnementale, 
+            à l’innovation sociale et à l’autonomisation des jeunes à travers 
+            des programmes, des challenges et des actions concrètes.
+        </p>
+    </div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="programs" class="section light">
+    <div class="container">
+        <h3>Nos Programmes</h3>
+
+        <div class="cards">
+            <div class="card">
+                <h4>Challenge Innovation Verte</h4>
+                <p>Un programme inspiré des compétitions internationales pour encourager les idées durables.</p>
+                <a href="#" class="link">En savoir plus →</a>
+            </div>
+
+            <div class="card">
+                <h4>Formation Jeunes Leaders</h4>
+                <p>Ateliers, mentorat et accompagnement pour créer les leaders de demain.</p>
+                <a href="#" class="link">En savoir plus →</a>
+            </div>
+
+            <div class="card">
+                <h4>Actions Communautaires</h4>
+                <p>Projets terrain pour un impact réel dans les communautés locales.</p>
+                <a href="#" class="link">En savoir plus →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact" class="section">
+    <div class="container">
+        <h3>Notre Impact</h3>
+
+        <div class="stats">
+            <div>
+                <strong>+500</strong>
+                <span>Jeunes formés</span>
+            </div>
+            <div>
+                <strong>+30</strong>
+                <span>Projets soutenus</span>
+            </div>
+            <div>
+                <strong>+15</strong>
+                <span>Communautés touchées</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <div class="container">
+        <h3>Rejoins la nouvelle génération d’acteurs du changement</h3>
+        <a href="#contact" class="btn-primary">S’inscrire maintenant</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="footer">
+    <div class="container">
+        <p>© 2026 Trash-Sure — Tous droits réservés</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
